@@ -1,0 +1,3 @@
+- [Python environment](python-environment.md) — use the full Python toolchain module before installing packages; the base module may lack pip and enforce an immutable environment.
+- [NN5 workbook variability](nn5-workbook-variability.md) — NN5 files vary in worksheet names and metadata placement, so loading needs configured-name plus first-sheet fallback.
+- [Root preview routing](root-preview-routing.md) — application-router workspaces need a root artifact route before a standalone Streamlit workflow appears at the public preview URL.

@@ -1,0 +1,42 @@
+{
+  "project": {
+    "title": "Dataset-Adaptive Feature Engineering and Selection for Time-Series Forecasting",
+    "default_test_size": 0.2,
+    "random_forest_trees": 80,
+    "correlation_threshold": 0.92,
+    "default_top_features": 8
+  },
+  "datasets": [
+    {
+      "id": "nn5",
+      "name": "NN5",
+      "description": "Daily cash-machine demand series from the NN5 forecasting competition.",
+      "file_patterns": ["nn5*.csv", "nn5*.xlsx", "*nn5*.csv", "*nn5*.xlsx"],
+      "sheet_name": "NN5 COMPLETE Data"
+    },
+    {
+      "id": "m4",
+      "name": "M4",
+      "description": "M4 forecasting benchmark series in dated, long, or period-matrix format.",
+      "file_patterns": ["m4*.csv", "m4*.xlsx", "*m4*.csv", "*m4*.xlsx", "*monthly-train.csv", "*weekly-train.csv", "*daily-train.csv"]
+    },
+    {
+      "id": "m5",
+      "name": "M5",
+      "description": "M5 retail sales benchmark using sales, calendar, and optional price files.",
+      "file_patterns": ["sales_train_validation*.csv", "*sales_train_validation*.csv"]
+    },
+    {
+      "id": "etth1",
+      "name": "ETTh1",
+      "description": "Hourly electricity transformer temperature benchmark.",
+      "file_patterns": ["etth1*.csv", "etth1*.xlsx", "*etth1*.csv", "*etth1*.xlsx"]
+    },
+    {
+      "id": "exchange-rate",
+      "name": "Exchange-Rate",
+      "description": "Exchange-rate benchmark series with a time column and numeric signals.",
+      "file_patterns": ["exchange*.csv", "exchange*.xlsx", "*exchange*.csv", "*exchange*.xlsx"]
+    }
+  ]
+}
